@@ -20,8 +20,10 @@ exports.createTopic = async (req, res) => {
 
 exports.deleteTopic = async (req, res) => {
   try {
+    console.log('Received Request:',req.params);
     await Topics.deleteOne({_id:req.params.id})
-    res.status(204)
+    console.log('sending back status');
+    res.sendStatus(204);
   } catch (error) {
     console.log(error);
     res.sendStatus(500);

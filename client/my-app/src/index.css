@@ -1,1 +1,16 @@
+@import './App.css';
+@import './component/TopicList.css';
+@import './component/Topic.css';
+@import './component/Nav.css';
 
+button {
+  background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 10px;
+}

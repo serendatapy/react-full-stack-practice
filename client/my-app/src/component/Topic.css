@@ -1,0 +1,22 @@
+.topic-card {
+  display: flex;
+  box-shadow: 6px 10px 23px 1px rgba(0,0,0,0.75);
+  margin: 20px 0;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.score {
+  flex: 1;
+
+}
+
+.topic-title {
+  flex: 3;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.topic-delete {
+  flex: 1;
+}

@@ -1,0 +1,5 @@
+.topic-list {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
